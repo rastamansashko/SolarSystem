@@ -1,0 +1,44 @@
+.gamecontainer {
+  width: 312px;
+  margin: 20px auto;
+}
+
+.field {
+  width: 100%;
+  border: 1px solid lightgray;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.field:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  float: left;
+  box-sizing: border-box;
+  background: url("../images/sprite1.png");
+  background-position: 0px 0px;
+}
+
+.cell_1 {
+  background-position: -100px 0px;
+}
+
+.cell_2 {
+  background-position: -200px 0px;
+}
+
+.info {
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid lightgray;
+  margin: 15px auto;
+}
+
